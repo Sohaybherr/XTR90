@@ -1,0 +1,7 @@
+BEGIN;
+
+ALTER TABLE match_odds
+    ADD COLUMN IF NOT EXISTS previous_odd NUMERIC(10,3),
+    ADD COLUMN IF NOT EXISTS odd_changed_at TIMESTAMPTZ;
+
+COMMIT;

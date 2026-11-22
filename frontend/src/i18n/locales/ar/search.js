@@ -1,0 +1,20 @@
+export default {
+  "search.subtitle": "استكشاف",
+  "search.title": "البحث",
+  "search.homePlaceholder": "ابحث عن الفرق أو البطولات أو المباريات",
+  "search.placeholder": "ابحث عن الفرق واللاعبين والبطولات...",
+  "search.clear": "مسح البحث",
+  "search.error": "تعذر البحث الآن.",
+  "search.entity.team": "فريق",
+  "search.entity.player": "لاعب",
+  "search.entity.competition": "بطولة",
+  "search.entity.teams": "فرق",
+  "search.entity.players": "لاعبون",
+  "search.entity.competitions": "بطولات",
+  "search.results": "النتائج",
+  "search.found": "{{count}} نتيجة",
+  "search.loading": "جار البحث...",
+  "search.empty": "لا توجد نتائج مطابقة.",
+  "search.resultType": "نوع نتيجة البحث",
+  "search.suggestions": "اقتراحات"
+}

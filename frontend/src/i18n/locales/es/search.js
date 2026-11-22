@@ -1,0 +1,20 @@
+export default {
+  "search.subtitle": "Explorar",
+  "search.title": "Buscar",
+  "search.homePlaceholder": "Buscar equipos, competiciones o partidos",
+  "search.placeholder": "Buscar equipos, jugadores, competiciones...",
+  "search.clear": "Borrar búsqueda",
+  "search.error": "No se puede buscar ahora.",
+  "search.entity.team": "Equipo",
+  "search.entity.player": "Jugador",
+  "search.entity.competition": "Competición",
+  "search.entity.teams": "Equipos",
+  "search.entity.players": "Jugadores",
+  "search.entity.competitions": "Competiciones",
+  "search.results": "Resultados",
+  "search.found": "{{count}} encontrados",
+  "search.loading": "Buscando...",
+  "search.empty": "No hay resultados coincidentes.",
+  "search.resultType": "Tipo de resultado",
+  "search.suggestions": "Sugerencias"
+}

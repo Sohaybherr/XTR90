@@ -1,0 +1,20 @@
+export default {
+  "auth.account": "Account",
+  "auth.email": "Email",
+  "auth.password": "Password",
+  "auth.confirm": "Confirm",
+  "auth.signIn": "Sign in",
+  "auth.signingIn": "Signing in...",
+  "auth.createAccount": "Create account",
+  "auth.creating": "Creating...",
+  "auth.firstName": "First name",
+  "auth.lastName": "Last name",
+  "auth.username": "Username",
+  "auth.orContinue": "or continue with",
+  "auth.orSignUp": "or sign up with",
+  "auth.newHere": "New here?",
+  "auth.createLink": "Create an account",
+  "auth.already": "Already have an account?",
+  "auth.hidePassword": "Hide password",
+  "auth.showPassword": "Show password"
+}

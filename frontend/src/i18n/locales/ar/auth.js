@@ -1,0 +1,20 @@
+export default {
+  "auth.account": "الحساب",
+  "auth.email": "البريد الإلكتروني",
+  "auth.password": "كلمة المرور",
+  "auth.confirm": "تأكيد",
+  "auth.signIn": "تسجيل الدخول",
+  "auth.signingIn": "جار تسجيل الدخول...",
+  "auth.createAccount": "إنشاء حساب",
+  "auth.creating": "جار الإنشاء...",
+  "auth.firstName": "الاسم الأول",
+  "auth.lastName": "اسم العائلة",
+  "auth.username": "اسم المستخدم",
+  "auth.orContinue": "أو تابع باستخدام",
+  "auth.orSignUp": "أو سجل باستخدام",
+  "auth.newHere": "جديد هنا؟",
+  "auth.createLink": "إنشاء حساب",
+  "auth.already": "لديك حساب بالفعل؟",
+  "auth.hidePassword": "إخفاء كلمة المرور",
+  "auth.showPassword": "إظهار كلمة المرور"
+}

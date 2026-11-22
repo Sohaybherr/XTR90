@@ -1,0 +1,15 @@
+{
+  "cleanup_timestamp": "2026-07-10T19:37:37.492476+00:00",
+  "dry_run": false,
+  "planned_delete_files": [],
+  "deleted_files": [],
+  "already_missing_files": [],
+  "preserved_files": [],
+  "missing_directories": [
+    "C:\\Users\\SOHAYB\\Documents\\375scores\\project-fixed\\project\\frontend\\public\\assets\\competitions",
+    "C:\\Users\\SOHAYB\\Documents\\375scores\\project-fixed\\project\\frontend\\public\\assets\\flags",
+    "C:\\Users\\SOHAYB\\Documents\\375scores\\project-fixed\\project\\frontend\\public\\assets\\news",
+    "C:\\Users\\SOHAYB\\Documents\\375scores\\project-fixed\\project\\frontend\\public\\assets\\players",
+    "C:\\Users\\SOHAYB\\Documents\\375scores\\project-fixed\\project\\frontend\\public\\assets\\teams"
+  ]
+}

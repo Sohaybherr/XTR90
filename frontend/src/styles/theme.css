@@ -1,0 +1,244 @@
+/* XTRA90 global theme foundation. */
+
+:root {
+  color-scheme: light;
+  --color-bg: #f4f7fb;
+  --image-bg-app: url("../assets/backgrounds/app-light.png");
+  --image-logo-nav: url("../assets/xtra90-logo-cutout-light.png");
+  --image-bg-stadium: url("../assets/backgrounds/stadium-light.png");
+  --image-bg-story: url("../assets/backgrounds/story-light.png");
+  --image-bg-trophy: url("../assets/backgrounds/trophy-light.png");
+  --color-bg-texture:
+    linear-gradient(180deg, rgba(247, 250, 252, 0.38) 0%, rgba(237, 243, 247, 0.58) 100%),
+    var(--image-bg-app);
+  --color-panel-art:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.66) 52%, rgba(255, 255, 255, 0.38) 100%),
+    var(--image-bg-trophy);
+  --color-hero-art:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.66) 48%, rgba(255, 255, 255, 0.36) 100%),
+    var(--image-bg-stadium);
+  --color-story-art:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.68) 54%, rgba(255, 255, 255, 0.40) 100%),
+    var(--image-bg-story);
+  --color-nav-bg: rgba(255, 255, 255, 0.90);
+  --color-sticky-bg: rgba(255, 255, 255, 0.94);
+  --color-surface: #ffffff;
+  --color-surface-texture:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(248, 251, 253, 0.98)),
+    radial-gradient(circle at 18% 0%, rgba(21, 148, 71, 0.045), transparent 32%);
+  --color-surface-header: #f9fbfd;
+  --color-surface-muted: #f4f7fa;
+  --color-surface-hover: #edf3f7;
+  --color-border: #dfe7ee;
+  --color-border-strong: #cdd9e3;
+  --color-text: #17212b;
+  --color-text-soft: #405161;
+  --color-text-muted: #6d7c8b;
+  --color-primary: #1877c9;
+  --color-primary-strong: #0b5da8;
+  --color-primary-soft: #e8f3ff;
+  --color-on-primary: #ffffff;
+  --color-focus-ring: rgba(24, 119, 201, 0.22);
+  --color-success-bg: #dff2ff;
+  --color-success-soft: #eef8ff;
+  --color-success-border: #b7dbf6;
+  --color-danger: #b4232c;
+  --color-danger-bg: #fff0f1;
+  --color-danger-border: #f5bcc1;
+  --color-warning: #a85b08;
+  --color-warning-bg: #fff5df;
+  --color-warning-soft: #fff9ed;
+  --color-warning-border: #efcf8d;
+  --color-image-plate: #ffffff;
+  --color-image-plate-border: #d9e2ea;
+  --color-image-shadow: 0 3px 12px rgba(24, 39, 55, 0.08);
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --shadow-subtle: 0 1px 2px rgba(24, 39, 55, 0.05);
+  --shadow-card: 0 14px 34px rgba(24, 39, 55, 0.09), 0 1px 0 rgba(255, 255, 255, 0.72) inset;
+  --shadow-panel: 0 26px 68px rgba(24, 39, 55, 0.13), 0 1px 0 rgba(255, 255, 255, 0.72) inset;
+  --transition-fast: 180ms cubic-bezier(.2, .8, .2, 1);
+  --space-8: 32px;
+  --texture-width: 1960px;
+  --texture-height: 960px;
+  --texture-size: var(--texture-width) var(--texture-height);
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Inter", sans-serif;
+  --font-number: "Inter", sans-serif;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #0d141b;
+  --image-bg-app: url("../assets/backgrounds/app-dark.png");
+  --image-logo-nav: url("../assets/xtra90-logo-cutout.png");
+  --image-bg-stadium: url("../assets/backgrounds/stadium-dark.png");
+  --image-bg-story: url("../assets/backgrounds/story-dark.png");
+  --image-bg-trophy: url("../assets/backgrounds/trophy-dark.png");
+  --color-bg-texture:
+    linear-gradient(180deg, rgba(11, 18, 24, 0.82) 0%, rgba(17, 26, 34, 0.90) 100%),
+    var(--image-bg-app);
+  --color-panel-art:
+    linear-gradient(90deg, rgba(20, 31, 41, 0.96) 0%, rgba(20, 31, 41, 0.90) 52%, rgba(20, 31, 41, 0.72) 100%),
+    var(--image-bg-trophy);
+  --color-hero-art:
+    linear-gradient(90deg, rgba(20, 31, 41, 0.96) 0%, rgba(20, 31, 41, 0.88) 48%, rgba(20, 31, 41, 0.68) 100%),
+    var(--image-bg-stadium);
+  --color-story-art:
+    linear-gradient(90deg, rgba(20, 31, 41, 0.97) 0%, rgba(20, 31, 41, 0.91) 54%, rgba(20, 31, 41, 0.76) 100%),
+    var(--image-bg-story);
+  --color-nav-bg: rgba(17, 26, 34, 0.91);
+  --color-sticky-bg: rgba(17, 26, 34, 0.95);
+  --color-surface: #141f29;
+  --color-surface-texture:
+    linear-gradient(180deg, rgba(24, 38, 49, 0.92), rgba(18, 29, 38, 0.98)),
+    radial-gradient(circle at 18% 0%, rgba(67, 209, 122, 0.07), transparent 34%);
+  --color-surface-header: #182631;
+  --color-surface-muted: #1b2a35;
+  --color-surface-hover: #223440;
+  --color-border: #2b3d49;
+  --color-border-strong: #3a5160;
+  --color-text: #f2f6f8;
+  --color-text-soft: #c7d2d9;
+  --color-text-muted: #95a5af;
+  --color-primary: #58b9ff;
+  --color-primary-strong: #8bd0ff;
+  --color-primary-soft: #12324b;
+  --color-on-primary: #06131d;
+  --color-focus-ring: rgba(88, 185, 255, 0.28);
+  --color-success-bg: #123852;
+  --color-success-soft: #132d42;
+  --color-success-border: #2d6287;
+  --color-danger: #ff9199;
+  --color-danger-bg: #3a1d21;
+  --color-danger-border: #784047;
+  --color-warning: #ffd077;
+  --color-warning-bg: #382b14;
+  --color-warning-soft: #302714;
+  --color-warning-border: #735b29;
+  --color-image-plate: #f7f9fb;
+  --color-image-plate-border: #d4dde5;
+  --color-image-shadow: 0 5px 16px rgba(0, 0, 0, 0.28);
+  --shadow-subtle: 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-card: 0 14px 36px rgba(0, 0, 0, 0.30), 0 1px 0 rgba(255, 255, 255, 0.035) inset;
+  --shadow-panel: 0 28px 76px rgba(0, 0, 0, 0.40), 0 1px 0 rgba(255, 255, 255, 0.04) inset;
+}
+
+html {
+  background: var(--color-bg);
+  background-size: var(--texture-size);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--color-text);
+  background: var(--color-bg-texture, var(--color-bg));
+  background-attachment: fixed;
+  background-position: center top;
+  background-repeat: repeat;
+  background-size: var(--texture-size);
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  color: var(--color-on-primary);
+  background: var(--color-primary);
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+strong {
+  text-wrap: balance;
+}
+
+p,
+span,
+label,
+small {
+  text-wrap: pretty;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  transition:
+    color var(--transition-fast),
+    background-color var(--transition-fast),
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+button:hover:not(:disabled),
+a:hover {
+  filter: saturate(1.03);
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--color-focus-ring);
+  outline-offset: 2px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-text-muted);
+  opacity: .82;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

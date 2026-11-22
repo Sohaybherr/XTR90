@@ -1,0 +1,20 @@
+export default {
+  "search.subtitle": "Explore",
+  "search.title": "Search",
+  "search.homePlaceholder": "Search teams, competitions, or matches",
+  "search.placeholder": "Search teams, players, competitions...",
+  "search.clear": "Clear search",
+  "search.error": "Unable to search right now.",
+  "search.entity.team": "Team",
+  "search.entity.player": "Player",
+  "search.entity.competition": "Competition",
+  "search.entity.teams": "Teams",
+  "search.entity.players": "Players",
+  "search.entity.competitions": "Competitions",
+  "search.results": "Results",
+  "search.found": "{{count}} found",
+  "search.loading": "Searching...",
+  "search.empty": "No matching results.",
+  "search.resultType": "Search result type",
+  "search.suggestions": "Suggestions"
+}

@@ -1,0 +1,20 @@
+export default {
+  "search.subtitle": "Entdecken",
+  "search.title": "Suche",
+  "search.homePlaceholder": "Teams, Wettbewerbe oder Spiele suchen",
+  "search.placeholder": "Teams, Spieler, Wettbewerbe suchen...",
+  "search.clear": "Suche löschen",
+  "search.error": "Suche ist derzeit nicht möglich.",
+  "search.entity.team": "Team",
+  "search.entity.player": "Spieler",
+  "search.entity.competition": "Wettbewerb",
+  "search.entity.teams": "Teams",
+  "search.entity.players": "Spieler",
+  "search.entity.competitions": "Wettbewerbe",
+  "search.results": "Ergebnisse",
+  "search.found": "{{count}} gefunden",
+  "search.loading": "Suche läuft...",
+  "search.empty": "Keine passenden Ergebnisse.",
+  "search.resultType": "Suchergebnistyp",
+  "search.suggestions": "Vorschläge"
+}

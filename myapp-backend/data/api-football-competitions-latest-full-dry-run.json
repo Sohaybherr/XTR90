@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "competitions": 1,
+    "teams": 15,
+    "fixtures": 201,
+    "standings": 12,
+    "squads": 1,
+    "squadPlayers": 28,
+    "detailMatches": 1,
+    "oddsRows": 0,
+    "errors": 0,
+    "apiRequestsUsed": 0
+  },
+  "competitions": [
+    {
+      "competitionId": 4390,
+      "competitionSeasonId": 4386,
+      "leagueApiId": 311,
+      "season": 2025,
+      "competition": "1st Division",
+      "country": "Albania",
+      "teams": 15,
+      "fixtures": 201,
+      "standings": 12,
+      "squads": 1,
+      "squadPlayers": 28,
+      "detailMatches": 1,
+      "oddsRows": 0,
+      "errors": []
+    }
+  ]
+}

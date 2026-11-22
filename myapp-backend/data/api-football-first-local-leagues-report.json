@@ -1,0 +1,4 @@
+{
+  "stopped": "API-Football HTTP 429 for /teams: {\"get\": \"\",\"parameters\": [],\"errors\": {\"rateLimit\": \"Too many requests. You have reached your daily request limit. Please try again later or upgrade your plan for higher limits.\"},\"results\": 0,\"paging\": {\"current\": 1,\"total\": 1},\"response\": []}",
+  "stats": {}
+}
